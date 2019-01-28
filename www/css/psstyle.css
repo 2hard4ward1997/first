@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font:14px 'montserrat' , Arial , sans-serif;
+    color:white;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+
+}
+
+/*img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}*/
+
+.page_content{
+    max-width: 530;
+    width: 100%;
+}
+
+.page_header{
+    font-family: 'Lobster';
+    font-size: 72px;
+    line-height: 60px;
+    position: relative;
+    max-width: 419px;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.page_header:after{
+    content: "";
+    position: absolute;
+    top:100%;
+    left: 0;
+    right:0;
+    height:2px;
+    background-image: linear-gradient(to right,#fac700 0%,
+                                               #fb8a00 25%,
+                                               #f0214d 56%, 
+                                               #b543b4 100%);
+}
+
+
+.colored_header{
+    color:#41efcc;
+}
+
+.page_text{
+    font-weight: 200px;
+    font-size: 18px;
+    text-transform:uppercase;
+    margin-bottom: 65px;
+
+}
+
+.page_link{
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+

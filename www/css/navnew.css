@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'et-line';
+	src:url('../fonts/et-font/et-line.eot');
+	src:url('../fonts/et-font/et-line.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/et-font/et-line.woff') format('woff'),
+		url('../fonts/et-font/et-line.ttf') format('truetype'),
+		url('../fonts/et-font/et-line.svg#et-line') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Open Sans','Dosis',Arial, sans-serif;
+    color:#777777;
+    background-color: white;
+    
+}
+
+.header{
+    background: url("../img/bg1.jpg") no-repeat center center;
+    min-height: 100vh;
+}
+
+.header:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    width:100%;
+    overflow: hidden;
+    padding: 0 30px;
+    padding-top: 25px;
+    margin-bottom: 270px;
+}
+
+.logo{
+    float: left;
+    
+}
+
+.nav{
+    float:right;
+}
+
+.nav li{
+    display:inline-block;
+    padding-left: 25px;
+    color: #d4d4d4;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.display{
+    margin:0 auto;
+}
+
+.slog{
+    color:#c8c8c8;
+    letter-spacing: 1.7em;
+    font-size: 30px;
+    font-family:'Dosis';
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding-left: 1.7em;
+    text-align: center;
+    
+}
+
+.slog1{
+    font-size: 19px;
+    color:#bcbcbc;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 370px;
+
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    position: relative;
+    border:none;
+    border-radius: 2px;
+
+}
+
+.rotatearrow{
+    transform: rotate(-45deg) ;
+    position: absolute;
+    left: 9px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.padbot{
+    padding-bottom: 35px;
+}

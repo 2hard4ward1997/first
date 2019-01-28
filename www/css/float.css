@@ -1,0 +1,134 @@
+.container{
+    width: 100%;
+    max-width:960px;
+    padding: 0 10px;
+    margin:0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row{
+    padding-top: 230px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    min-height: 100%;
+    
+
+}
+ 
+
+.col:after{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+.col{
+    width:calc(860px/4);
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.col_content{
+
+    height: 280px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+.discription{
+padding-left: 20px;
+}
+
+.name{
+    font-family: 'Roboto',Arial, sans-serif;
+    font-size:14px ;
+    color:#333;  
+}
+
+.price{
+    font-family: 'Roboto',Arial, sans-serif;
+    font-size:18px ;
+    color: #333;
+    line-height: 30px
+   
+}
+
+.btn{
+    padding: 7px 12px;
+    font-family: 'Roboto',Arial, sans-serif ;
+    color: #fff;
+    font-size:14px;
+    height: 30px;
+    outline: 0;
+    text-align: center;
+    border:none;
+}
+
+.btn-default{
+    float: right;
+    background-color: #742f00;
+    margin-right: 20px;
+}
+
+.btn:hover{
+    background-color: #ff6700;
+}
+
+.label{
+    padding: 8px 8px 8px 20px;
+    height: 30px;
+    position: relative;
+    
+    top:20px;
+    left:0px;
+    display: inline-block;
+    font-family: 'Roboto',Arial, sans-serif ;
+    font-size: 14px;
+    color:#fff;
+} 
+.label-new{
+    background-color: #00a7b2;
+}
+
+.label-sale{
+    background-color: #ff6700;
+;
+
+}
+
+.label-super-price{
+    background-color: #5a00ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

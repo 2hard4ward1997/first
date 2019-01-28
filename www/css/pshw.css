@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: 'debby';
+    src: url('../fonts/cook/debby-webfont.woff2') format('woff2'),
+         url('../fonts/cook/debby-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MullerRegular';
+    src: url('../fonts/cook/fontfabric_-_mullerregular-webfont.woff') format('woff'),
+         url('../fonts/cook/fontfabric_-_mullerregular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    font:14px 'montserrat' , Arial , sans-serif;
+    color:white;
+}
+
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+   
+}
+
+.container{
+}
+
+.header{
+    background-color: #001122;
+    font:24px;
+    padding-left: 180px; 
+    border: 2px solid ;
+    margin-top: 50px;
+    padding-top:-20px; 
+}
+
+
+
+.menu{ 
+    font-family: 'MullerRegular';
+    padding-left:0; 
+    list-style: none;
+    display: inline-block;
+    max-width: 100vh;
+    margin-top: 0; 
+    display: flex;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right:80px;
+    
+}
+
+.main_logo{
+    margin-right:180px;
+    
+}
+
+.main_logo img{
+    margin-top:30px; 
+}
+
+
+.page_content{
+    padding: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 530px;
+    width: 100%;
+}
+
+
+
+.page_header{
+    font-weight: 800;
+    position: relative;
+    max-width: 500px;
+    justify-content:center;
+    align-items:center;
+}
+
+.colored_header{
+    font-size: 50px;
+    
+}
+
+.btn{
+    font-weight: 200px;
+    font-size: 28px;
+    text-transform:none;
+    background-color: #771111;
+    border: none;
+    
+}

@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+
+}
+
+body{
+    color: aliceblue;
+}
+
+
+.container{
+    padding-left: 180px;
+ }
+ header{
+     max-height: 158px;
+     background-color: #001122;
+ }
+ 
+ .nav{
+     display: flex;
+     align-items: flex-start;
+     flex-direction: row; 
+     
+ }
+
+ .row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 65px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+ }
+
+ .row div{
+    margin-right: 80px;
+    
+ }
+
+ .logo2{
+     padding-top:32px;
+     margin-right: 120px;
+     padding-bottom:32px;
+ }
+
+ .social{
+    position: absolute;
+    display: flex;
+    padding-top: 65px;
+    right:0;
+ }
+
+ .social div{
+     margin-right:20px;
+ }
+
+ main{
+     width: 100%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .school{
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+
+ }
+
+p{
+    font-size: 35px;
+    margin:10px 0 70px;
+}
+ .kh{
+    justify-content:center;
+    align-items:center;
+ }
+
+ .btn{
+    font-size: 28px;
+    background-color: #771111;
+    border: none;
+    color:white;
+    width: 280px;
+    height: 60px;
+    font-family: 'Ubuntu', sans-serif;
+ }

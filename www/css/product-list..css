@@ -1,0 +1,57 @@
+body{
+    font-weight: 400;
+    font-size:16px;
+    font-style:normal;
+    font-family: 'Noto Serif TC',Arial, serif;
+    line-height: 1.4;
+    letter-spacing: 1.4;
+    color: rgb(14, 1, 1); 
+    text-align: center;
+    /* прозрачность opacity: 0.8;*/
+    text-transform: uppercase;/*заглавные uppercase*/
+    height: 400px;
+    width:100% ;
+    list-style: none;
+    background-image: url(https://st2.depositphotos.com/5750784/9046/v/950/depositphotos_90464810-stock-illustration-vector-seamless-pattern-chaotic-shadeless.jpg);
+}
+[class^=introduction] {
+    display: block;
+    height: 100px;
+    margin-bottom:20px;
+    margin-right: 15px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: 5px solid rgba(255, 0, 0, 0.5) ;
+    border-bottom-left-radius: 100px;
+    text-transform: none;
+    font-weight: 400;
+    font-size:16px;
+    font-style:normal;
+    font-family: 'Montserrat',Arial, sans-serif;
+    line-height: 1.4;
+    letter-spacing: 1.4;
+    background-color: rgba(112, 7, 250, 0.3);
+}
+      [class^=list]{
+        font-family: 'Raleway',Arial, sans-serif;
+        display:block;
+        border: 5px solid rgba(0, 255, 34, 0.5) ;
+        border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
+        margin-bottom:20px;
+        margin-right: 15px;
+        text-transform: none;
+        font-weight: 400;
+        font-size:30px;
+        font-style:normal;
+        line-height: 1.4;
+        letter-spacing: 1.4;
+        /*background-color: rgb(212, 214, 75);*/
+        padding-bottom: 5px;
+        padding-top: 150px;
+        background-color:rgba(255, 23, 197, 0.2);
+      }
+      [class^=li]{
+          padding-bottom: 150px;
+           
+      }
+    
